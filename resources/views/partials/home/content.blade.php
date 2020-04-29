@@ -65,7 +65,7 @@
             <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
           </div>
 
-          <div class="p-4 text-green-darker uppercase text-sm font-serif flex justify-between bg-white">
+          <div class="p-4 text-green-darker uppercase text-sm font-serif flex justify-between bg-white block md:hidden">
             <button @click="news = true" class="underline" title="Opens a Newsletter Signup Modal" >Sign up for the newsletter</button>
             <span class="tracking-normal normal-case text-grey-dark">or</span>
             <a class="tracking-normal normal-case underline" href="/newsletter">Read the Archive</a>
