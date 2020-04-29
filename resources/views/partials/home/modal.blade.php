@@ -40,7 +40,7 @@
       </button>
     </div>
     <div class="sm:flex sm:items-start">
-      <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+      <div class="mt-3 text-left sm:mt-0 sm:ml-4 sm:text-left">
         <div class="mt-2">
           <div class="leading-6 text-grey-darkest font-serif text-sm sm:text-lg">
             <?php the_content(); ?>
