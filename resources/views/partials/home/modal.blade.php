@@ -31,7 +31,7 @@
       From: "opacity-100 translate-y-0 sm:scale-100"
       To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
   -->
-  <div class="relative bg-white overflow-hidden transform transition-all sm:max-w-2xl sm:w-full sm:p-6 md:p-12 md:pb-10">
+  <div class="relative bg-white overflow-hidden transform transition-all sm:max-w-2xl sm:w-full p-6 md:p-12 md:pb-10">
     <div class="hidden sm:block absolute top-0 right-0 pt-4 pr-4">
       <button @click="open = false" type="button" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition ease-in-out duration-150">
         <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -42,7 +42,7 @@
     <div class="sm:flex sm:items-start">
       <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
         <div class="mt-2">
-          <div class="leading-6 text-grey-darkest font-serif text-lg">
+          <div class="leading-6 text-grey-darkest font-serif text-sm sm:text-lg">
             <?php the_content(); ?>
           </div>
         </div>
