@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="w-1/3">
-            <a href="<?php the_field('chow_now'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
+            <a href="<?php the_field('chow_now'); ?>" title="Opens Order Online in new window" target="_blank">
               <span class="block text-xs leading-tight">Order Online</span>
               <span class="underline text-xs">For Pickup <br>or Delivery</span>
             </a>
@@ -68,7 +68,7 @@
           </div>
           <?php $image = get_field('main_photo'); ?>
           <div class="relative">
-            <div class="absolute inset-x-0 bottom-0 md:py-3 z-10 text-center">
+            <div class="absolute inset-x-0 bottom-0 md:py-3 z-10 text-center opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
               <span class="text-white uppercase text-xs border-t border-dotted inline-block"><?php echo $image['caption']; ?></span>
             </div>
             <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
@@ -78,14 +78,7 @@
       <div class="w-2/3 lg:w-1/4 xl:w-1/5 mx-auto lg:mx-0">
         <div class="p-6">
           <div class="mb-5 px-6 hidden md:block">
-            <a target="_blank" href="<?php the_field('chow_now'); ?>" class="block aspect-ratio group aspect-ratio--1x1 bg-white rounded-full transition-all duration-200 ease-in-out hover:bg-green-darker hover:scale-105 hover:text-white">
-              <span class="absolute inset-0 flex items-center justify-center">
-                <span>
-                  <h1 class="uppercase text-green-darker xl:text-lg tracking-widest group-hover:text-white">Order Online</h1>
-                  <p class="text-green-darkest uppercase block leading-5 group-hover:text-white">For Pickup <br>or Delivery</p>
-                </span>
-              </span>
-            </a>
+            @include('partials.home.button-order')
           </div>
           <div class="w-full md:w-1/2 md:w-full mb-5 relative">
             <div class="absolute inset-0 flex items-center justify-center">
