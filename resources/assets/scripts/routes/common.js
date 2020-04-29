@@ -19,7 +19,8 @@ export default {
   },
   finalize() {
     function build() {
-      $('.carousel').carousel();  
+      $('.sticky').sticky();  
+      //$('.carousel').carousel();  
       $('.background').background();  
     }
     build();

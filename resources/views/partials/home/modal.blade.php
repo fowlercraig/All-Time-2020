@@ -6,7 +6,7 @@
   x-transition:leave="transition ease-in duration-75 transform"
   x-transition:leave-start="opacity-100"
   x-transition:leave-end="opacity-0"
-  class="fixed bottom-0 inset-x-0 px-4 pb-4 sm:inset-0 sm:flex sm:items-center sm:justify-center z-50">
+  class="fixed bottom-0 inset-x-0 px-4 pb-4 inset-0 flex items-center justify-center z-50">
   <!--
     Background overlay, show/hide based on modal state.
 

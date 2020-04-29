@@ -3,10 +3,10 @@
     <div id="home" class="lg:flex lg:flex-wrap items-center lg:px-0 xl:px-12 w-full text-center text-sm leading-loose tracking-widest font-sans font-medium">
       <div class="w-full md:w-full mx-auto lg:mx-0 lg:w-1/4 xl:w-1/5">
         <div class="pt-6 flex flex-wrap text-green-darker uppercase lg:hidden items-center leading-tight justify-center">
-          <div class="w-1/3">
+          <div class="w-1/4">
             <div class="aspect-ratio aspect-ratio--1x1 bg-green-darkest rounded-full">
               <div class="absolute inset-0 flex items-center justify-center">
-                <h1 class="uppercase text-white text-lg tracking-widest mb-0">All Time</h1>
+                <h1 class="uppercase text-white text-sm tracking-widest mb-0">All Time</h1>
               </div>
             </div>
           </div>
@@ -64,6 +64,13 @@
             `-->
             <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
           </div>
+
+          <div class="p-4 text-green-darker uppercase text-sm font-serif flex justify-between bg-white">
+            <button @click="news = true" class="underline" title="Opens a Newsletter Signup Modal" >Sign up for the newsletter</button>
+            <span class="tracking-normal normal-case text-grey-dark">or</span>
+            <a class="tracking-normal normal-case underline" href="/newsletter">Read the Archive</a>
+          </div>
+
           <div class="pt-6 text-green-darker uppercase text-xs">
             <a href="<?php the_field('instagram'); ?>" class="border-b pb-1" title="Opens Instagram in a new window" target="_blank">Follow us on Instagram</a>
           </div>

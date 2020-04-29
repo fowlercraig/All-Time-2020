@@ -6,7 +6,7 @@
   x-transition:leave="transition ease-in duration-75 transform"
   x-transition:leave-start="opacity-100"
   x-transition:leave-end="opacity-0"
-  class="fixed bottom-0 inset-x-0 px-4 pb-4 sm:inset-0 sm:flex sm:items-center sm:justify-center z-50">
+  class="fixed bottom-0 inset-x-0 px-4 pb-4 inset-0 flex items-center justify-center z-50">
   <!--
     Background overlay, show/hide based on modal state.
 
@@ -17,7 +17,7 @@
       From: "opacity-100"
       To: "opacity-0"
   -->
-  <div class="fixed inset-0 transition-opacity">
+  <div class="fixed inset-0 transition-opacity" @click="news = false">
     <div class="absolute inset-0 bg-orange opacity-75"></div>
   </div>
 
@@ -31,7 +31,7 @@
       From: "opacity-100 translate-y-0 sm:scale-100"
       To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
   -->
-  <div class="relative bg-white overflow-hidden transform transition-all sm:max-w-2xl sm:w-full sm:p-6 md:p-12 md:pb-10">
+  <div class="relative bg-white overflow-hidden transform transition-all sm:max-w-2xl sm:w-full sm:w-full p-6 md:p-12 md:pb-10">
     <div class="hidden sm:block absolute top-0 right-0 pt-4 pr-4 z-50">
       <button @click="news = false" type="button" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition ease-in-out duration-150">
         <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -43,7 +43,7 @@
       <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
         <div class="mt-2">
           <div class="leading-6 text-grey-darkest font-serif text-lg">
-            <div class="text-center font-serif text-orange text-xl mb-3">Subscribe to our newsletter</div>
+            <div class="text-center font-serif text-orange text-base md:text-xl mb-3">Subscribe to our newsletter</div>
             <div class="klaviyo-form-JMYRi4 w-full"></div>
           </div>
         </div>
