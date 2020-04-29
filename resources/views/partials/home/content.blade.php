@@ -68,9 +68,11 @@
           </div>
           <?php $image = get_field('main_photo'); ?>
           <div class="relative">
+            <!--
             <div class="absolute inset-x-0 bottom-0 md:py-3 z-10 text-center opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
               <span class="text-white uppercase text-xs border-t border-dotted inline-block"><?php echo $image['caption']; ?></span>
             </div>
+            `-->
             <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
           </div>
           <div class="pt-6 text-green-darker uppercase text-xs">
