@@ -4,7 +4,7 @@
       <div class="w-full md:w-full mx-auto lg:mx-0 lg:w-1/4 xl:w-1/5">
         <div class="pt-6 flex flex-wrap text-green-darker uppercase lg:hidden items-center leading-tight">
           <div class="w-1/3">
-            <a href="<?php the_field('how-to'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
+            <a href="<?php the_field('gift-card'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
               <span class="block text-xs leading-tight">E-Gift Cards</span>
               <span class="underline text-xs">Order Online</span>
             </a>
@@ -34,7 +34,7 @@
           <div class="mb-5 relative hidden lg:block">
             <div class="absolute inset-0 flex items-center justify-center">
               <div class="uppercase text-green-darkest">
-                <a href="<?php the_field('how-to'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
+                <a href="<?php the_field('gift-card'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
                   <span class="block text-lg leading-tight">E-Gift Cards</span>
                   <span class="underline">Order Online</span>
                 </a>
