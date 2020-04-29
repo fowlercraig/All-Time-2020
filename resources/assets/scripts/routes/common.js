@@ -1,4 +1,4 @@
-import Swup from 'swup';
+//import Swup from 'swup';
 import 'alpinejs'
 
 // Formstone Core
@@ -23,8 +23,8 @@ export default {
       $('.background').background();  
     }
     build();
-    const swup = new Swup();
-    swup.on('contentReplaced', build);
+    //const swup = new Swup();
+    //swup.on('contentReplaced', build);
   },
 }; 
 

@@ -1,4 +1,4 @@
-<div class="md:absolute md:table md:w-full md:h-full inset-0 bg-orange-lightest ">
+<div class="md:absolute md:table md:w-full md:h-full inset-0">
   <div class="md:table-cell align-middle">
     <div id="home" class="lg:flex lg:flex-wrap items-center lg:px-0 xl:px-12 w-full text-center text-sm leading-loose tracking-widest font-sans font-medium">
       <div class="w-full md:w-full mx-auto lg:mx-0 lg:w-1/4 xl:w-1/5">
@@ -58,12 +58,12 @@
       </div>
       <div class="lg:w-1/2 xl:w-3/5">
         <div class="pt-6 md:p-6">
-          <div class="flex flex-wrap text-center mb-6 md:mb-10 font-serif tracking-normal text-base lg:text-xl leading-tight text-green-darker">
+          <div class="flex flex-wrap text-center mb-6 md:mb-10 font-serif tracking-normal text-sm lg:text-base leading-tight text-green-darker">
             <div class="w-full md:w-1/2 px-4 md:border-r border-red">We're a neighborhood joint <br>and we're at your service.</div>
             <div class="w-1/2 px-4 hidden md:block">
               <button @click="news = true" class="underline" title="Opens a Newsletter Signup Modal" >Sign up for the newsletter</button>
               <br>
-              or <a class="underline" title="Opens the Newsletter Archive in the same window" href="">read the archive.</a>
+              or <a class="underline" title="Opens the Newsletter Archive in the same window" href="<?php the_field('newsletter_archive'); ?>">read the archive.</a>
             </div>
           </div>
           <?php $image = get_field('main_photo'); ?>
@@ -72,6 +72,9 @@
               <span class="text-white uppercase text-xs border-t border-dotted inline-block"><?php echo $image['caption']; ?></span>
             </div>
             <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
+          </div>
+          <div class="pt-6 text-green-darker uppercase text-xs">
+            <a href="<?php the_field('instagram'); ?>" class="border-b pb-1" title="Opens Instagram in a new window" target="_blank">Follow us on Instagram</a>
           </div>
         </div>
       </div>

@@ -108,7 +108,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['gill-sans-nova', 'sans-serif'],
-      serif: ['ArchiveGaramondPro-Bold', 'garamond', 'serif'],
+      serif: ['Lora', 'garamond', 'serif'],
     },
     extend: {
       inset: {
