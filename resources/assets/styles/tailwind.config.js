@@ -37,10 +37,10 @@ let colors = {
   'orange-darkest': '#462a16',
   'orange-darker': '#613b1f',
   'orange-dark': '#de751f',
-  'orange': '#f6993f',
+  'orange': '#c69c6d',
   'orange-light': '#faad63',
   'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
+  'orange-lightest': '#fef7f5',
 
   'yellow-darkest': '#453411',
   'yellow-darker': '#684f1d',
@@ -50,7 +50,7 @@ let colors = {
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#0f2f21',
+  'green-darkest': '#245250',
   'green-darker': '#1a4731',
   'green-dark': '#1f9d55',
   'green': '#38c172',
@@ -101,13 +101,14 @@ let colors = {
 
 module.exports = {
   theme: {
-    //colors: colors,
+    colors: colors,
     container: {
       center: true,
       padding: '1rem',
     },
     fontFamily: {
-      sans: ['Inter var', 'sans-serif'],
+      sans: ['gill-sans-nova', 'sans-serif'],
+      serif: ['ArchiveGaramondPro-Bold', 'garamond', 'serif'],
     },
     extend: {
       inset: {
@@ -145,6 +146,7 @@ module.exports = {
   variants: {
     textColor: ['responsive', 'hover', 'focus','group-hover'],
     opacity: ['responsive', 'hover', 'focus','group-hover'],
+    scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
   plugins: [
     require('@tailwindcss/ui'),

@@ -8,15 +8,9 @@ h6 {
 }
 
 p {
-  @apply mb-3 leading-normal;
+  @apply mb-2 leading-normal;
 }
 
-a {
-  @apply text-primary no-underline border-b border-transparent;
-
-  transition: 0.2s ease;
-
-  &:hover {
-    @apply border-primary;
-  }
+#home p {
+  @apply mb-0;
 }

@@ -4,7 +4,7 @@
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
-    <div class="wrap container" role="document">
+    <div class="wrap" role="document" x-data="{ ...dropdown(), ...news() }">
       <div class="content">
         <main id="swup" class="main transition-fade">
           @yield('content')
@@ -19,5 +19,21 @@
     @php do_action('get_footer') @endphp
     @include('partials.footer')
     @php wp_footer() @endphp
+    <script>
+      $(document).ready(function(){
+        $.cookie('open', 'true');
+      });
+      var value = $.cookie(key);
+      function dropdown() {
+        return {
+          open: true,
+        }
+      }
+      function news() {
+        return {
+          news: false,
+        }
+      }
+    </script>
   </body>
 </html>

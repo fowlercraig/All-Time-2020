@@ -1,9 +1,12 @@
 import Swup from 'swup';
+import 'alpinejs'
+
 // Formstone Core
 import 'formstone/dist/js/core';
 import 'formstone/dist/js/mediaquery';
 import 'formstone/dist/js/touch';
 // Formstone Plugins
+import 'formstone/dist/js/cookie';
 import 'formstone/dist/js/swap';
 import 'formstone/dist/js/carousel';
 import 'formstone/dist/js/background';
@@ -17,6 +20,7 @@ export default {
   finalize() {
     function build() {
       $('.carousel').carousel();  
+      $('.background').background();  
     }
     build();
     const swup = new Swup();
