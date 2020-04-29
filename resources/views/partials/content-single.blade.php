@@ -1,13 +1,10 @@
 <article @php post_class() @endphp>
   <header>
-    <h1 class="entry-title">{!! get_the_title() !!}</h1>
-    @include('partials/entry-meta')
+    <h2 class="entry-title font-sans text-sm uppercase tracking-widest font-medium">
+      <a href="{{ get_permalink() }}">{!! get_the_title() !!}</a>
+    </h2>
   </header>
-  <div class="entry-content">
+  <div class="entry-summary text-sm leading-loose mb-10">
     @php the_content() @endphp
   </div>
-  <footer>
-    {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
-  </footer>
-  @php comments_template('/partials/comments.blade.php') @endphp
 </article>
