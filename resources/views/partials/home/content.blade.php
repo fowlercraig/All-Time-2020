@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="w-1/3">
-            <a href="<?php the_field('how-to'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
+            <a href="<?php the_field('chow_now'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
               <span class="block text-xs leading-tight">Order Online</span>
               <span class="underline text-xs">For Pickup <br>or Delivery</span>
             </a>
