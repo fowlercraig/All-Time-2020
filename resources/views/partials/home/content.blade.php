@@ -2,30 +2,18 @@
   <div class="md:table-cell align-middle">
     <div id="home" class="lg:flex lg:flex-wrap items-center lg:px-0 xl:px-12 w-full text-center text-sm leading-loose tracking-widest font-sans font-medium">
       <div class="w-full md:w-full mx-auto lg:mx-0 lg:w-1/4 xl:w-1/5">
-        <div class="pt-6 flex flex-wrap text-green-darker uppercase lg:hidden items-center leading-tight">
+        <div class="pt-6 flex flex-wrap text-green-darker uppercase lg:hidden items-center leading-tight justify-center">
           <div class="w-1/3">
-            <a href="<?php the_field('gift-card'); ?>" title="Opens E-Gift Card page in new window" target="_blank">
-              <span class="block text-xs leading-tight">E-Gift Cards</span>
-              <span class="underline text-xs">Order Online</span>
-            </a>
-          </div> 
-          <div class="w-1/3">
-            <div class="aspect-ratio aspect-ratio--1x1 bg-green-darker rounded-full">
+            <div class="aspect-ratio aspect-ratio--1x1 bg-green-darkest rounded-full">
               <div class="absolute inset-0 flex items-center justify-center">
                 <h1 class="uppercase text-white text-lg tracking-widest mb-0">All Time</h1>
               </div>
             </div>
           </div>
-          <div class="w-1/3">
-            <a href="<?php the_field('chow_now'); ?>" title="Opens Order Online in new window" target="_blank">
-              <span class="block text-xs leading-tight">Order Online</span>
-              <span class="underline text-xs">For Pickup <br>or Delivery</span>
-            </a>
-          </div> 
         </div>
         <div class="pt-6 md:p-6 pb-0 lg:p-6 mx-auto hidden lg:block">
           <div class="mb-0 md:mb-5 md:px-6">
-            <div class="aspect-ratio aspect-ratio--1x1 bg-green-darker rounded-full">
+            <div class="aspect-ratio aspect-ratio--1x1 bg-green-darkest rounded-full">
               <div class="absolute inset-0 flex items-center justify-center">
                 <h1 class="uppercase text-white text-lg tracking-widest mb-0">All Time</h1>
               </div>
@@ -58,7 +46,7 @@
       </div>
       <div class="lg:w-1/2 xl:w-3/5">
         <div class="pt-6 md:p-6">
-          <div class="flex flex-wrap text-center mb-6 md:mb-10 font-serif tracking-normal text-sm lg:text-base leading-tight text-green-darker">
+          <div class="flex flex-wrap text-center mb-6 md:mb-10 font-serif tracking-normal text-base lg:text-base leading-tight text-green-darker">
             <div class="w-full md:w-1/2 px-4 md:border-r border-red">We're a neighborhood joint <br>and we're at your service.</div>
             <div class="w-1/2 px-4 hidden md:block">
               <button @click="news = true" class="underline" title="Opens a Newsletter Signup Modal" >Sign up for the newsletter</button>
@@ -66,6 +54,7 @@
               or <a class="underline" title="Opens the Newsletter Archive in the same window" href="<?php the_field('newsletter_archive'); ?>">read the archive.</a>
             </div>
           </div>
+          @include('partials.home.banner')
           <?php $image = get_field('main_photo'); ?>
           <div class="relative">
             <!--
