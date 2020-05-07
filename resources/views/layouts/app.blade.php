@@ -24,10 +24,6 @@
     @include('partials.footer')
     @php wp_footer() @endphp
     <script>
-      $(document).ready(function(){
-        $.cookie('open', 'true');
-      });
-      var value = $.cookie(key);
       function dropdown() {
         return {
           open: true,
