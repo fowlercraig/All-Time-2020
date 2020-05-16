@@ -62,7 +62,9 @@
               <span class="text-white uppercase text-xs border-t border-dotted inline-block"><?php echo $image['caption']; ?></span>
             </div>
             `-->
-            <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
+            <a target="_blank" href="<?php the_field('chow_now'); ?>">
+              <div class="aspect-ratio aspect-ratio--4x3 bg-white background" data-background-options='{"source":"<?php echo $image['sizes']['large']; ?>"}'></div>
+            </a>
           </div>
 
           <div class="p-4 text-green-darker uppercase text-sm font-serif flex justify-between bg-white block md:hidden">
