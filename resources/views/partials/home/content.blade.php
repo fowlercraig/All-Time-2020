@@ -1,6 +1,6 @@
 <div class="md:absolute md:table md:w-full md:h-full inset-0">
   <div class="md:table-cell align-middle">
-    <div id="home" class="lg:flex lg:flex-wrap items-center lg:px-0 xl:px-12 w-full text-center text-sm leading-loose tracking-widest font-sans font-medium">
+    <div id="home" class="max-w-9xl mx-auto lg:flex lg:flex-wrap items-center lg:px-0 xl:px-12 w-full text-center text-sm leading-loose tracking-widest font-sans font-medium">
       <div class="w-full md:w-full mx-auto lg:mx-0 lg:w-1/4 xl:w-1/5">
         <div class="pt-6 flex flex-wrap text-green-darker uppercase lg:hidden items-center leading-tight justify-center">
           <div class="w-1/4">

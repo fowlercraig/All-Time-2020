@@ -111,8 +111,13 @@ module.exports = {
       serif: ['Lora', 'garamond', 'serif'],
     },
     extend: {
+      maxWidth: {
+        '7xl': '80rem',
+        '8xl': '88rem',
+        '9xl': '96rem',
+      },
       inset: {
-        "100":"100%",
+        '100':'100%',
         '1/2': '50%',
         '-4': '-4rem',
         '-10': '-10rem',
