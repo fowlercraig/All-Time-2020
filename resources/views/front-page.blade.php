@@ -4,5 +4,6 @@
   @while(have_posts()) @php the_post() @endphp
     @include('partials.home.content')
     @include('partials.home.newsletter')
+    @include('partials.content-modal')
   @endwhile
 @endsection

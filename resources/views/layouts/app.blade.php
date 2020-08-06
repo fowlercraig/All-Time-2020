@@ -4,7 +4,7 @@
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
-    <div class="wrap" role="document" x-data="{ ...dropdown(), ...news() }">
+    <div class="wrap" role="document" x-data="{ ...dropdown(), ...news(), ...wine(), ...video() }">
       <div class="content">
         <?php if(is_front_page()): ?>
         <main id="swup" class="main transition-fade">
@@ -32,6 +32,16 @@
       function news() {
         return {
           news: false,
+        }
+      }
+      function wine() {
+        return {
+          wine: false,
+        }
+      }
+      function video() {
+        return {
+          video: true,
         }
       }
     </script>

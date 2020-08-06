@@ -102,6 +102,16 @@ let colors = {
 module.exports = {
   theme: {
     colors: colors,
+    typography: {
+      default: {
+        css: {
+          li: {
+            marginBottom: "1px",
+            marginTop: "1px",
+          }
+        },
+      },
+    },
     container: {
       center: true,
       padding: '1rem',
@@ -155,5 +165,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/ui'),
+    require('@tailwindcss/typography'),
   ]
 }
