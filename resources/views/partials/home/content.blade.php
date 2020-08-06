@@ -76,7 +76,7 @@
           <div class="pt-6 text-green-darker uppercase text-xs space-x-4">
             <a href="<?php the_field('instagram'); ?>" class="border-b pb-1" title="Opens Instagram in a new window" target="_blank">Follow us on Instagram</a>
             <a href="#" @click="wine = true" class="border-b pb-1" title="Opens a Newsletter Signup Modal">Join the Wine Club</a>
-            <a href="#" @click="video = true" class="border-b pb-1" title="Opens a Newsletter Signup Modal"></a>
+            <a href="#" @click="video = true" class="border-b pb-1" title="Opens a Newsletter Signup Modal">Boiling Point Video</a>
           </div>
         </div>
       </div>

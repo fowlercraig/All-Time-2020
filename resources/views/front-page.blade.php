@@ -5,5 +5,6 @@
     @include('partials.home.content')
     @include('partials.home.newsletter')
     @include('partials.content-modal')
+    @include('partials.content-video')
   @endwhile
 @endsection
