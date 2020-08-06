@@ -44,14 +44,6 @@
       </button>
     </div>
     <div class="sm:flex sm:items-start">
-      <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
-        <div class="mt-2">
-          <div class="leading-6 text-grey-darkest font-serif text-lg">
-            <div class="text-center font-serif text-orange text-base md:text-xl mb-3">Wine Time!</div>
-            Hello, I love wine.
-          </div>
-        </div>
-      </div>
-    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OjXSlPiQhNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>

@@ -1,3 +1,4 @@
+<div class="hidden">
 <div>
   <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
   <div class="mt-1 relative rounded-md shadow-sm">
@@ -9,3 +10,4 @@
     Button text
   </button>
 </span>
+</div>
