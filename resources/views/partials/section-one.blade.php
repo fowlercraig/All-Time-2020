@@ -2,7 +2,7 @@
 
 @if($images)
   <section class="relative">
-    <div class="absolute inset-0 z-20">
+    <div class="absolute inset-0 z-20 p-4">
       <img class="block w-full h-full object-contain object-center" src="@asset('images/alltime_logo.svg')" alt="{{ $siteName }}">
     </div>
     <div class="gallery-images">
