@@ -1,7 +1,7 @@
-<header class="banner flex items-center sticky top-0 uppercase bg-white font-brand text-gray-700 text-sm md:text-lg">
+<header class="banner flex items-center sticky top-0 uppercase bg-white font-brand text-gray-700 text-sm md:text-lg z-50 shadow md:shadow-none">
   <div class="w-full flex items-center justify-between">
 
-    <a title="{{ $siteName }}" class="brand px-5 py-3 flex-none" href="{{ home_url('/') }}">
+    <a title="{{ $siteName }}" class="brand px-4 py-3 flex-none" href="{{ home_url('/') }}">
       Almost always open
     </a>
 

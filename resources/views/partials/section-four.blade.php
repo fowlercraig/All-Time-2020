@@ -1,13 +1,25 @@
 @php $section = get_field('section_4') @endphp
 
-<section class="bg-gray-100 flex flex-wrap-reverse">  
-  <div class="lg:h-90vh lg:w-1/2 flex items-end">
-    <div class="container py-6">
-      <div class="font-eyebrow text-brand mb-4">wine + market</div>
-      <div class="uppercase text-lg md:text-3xl">We’re doing market and wine too. Everything from meals kits to lorem ipsum. <a class="text-brand hover:underline" href="">→ order now</a></div>
+<section class="bg-white relative text-xs lg:text-base">
+  <div class="flex flex-wrap">
+    <div class="w-full md:w-1/2 relative">
+      <div class="absolute inset-0 flex items-center justify-center md:items-end md:justify-start p-8">
+        <div class="w-full space-y-3 text-center md:text-left">
+          <div class="font-eyebrow text-brand mb-4">wine + market</div>
+          <div class="uppercase text-lg md:text-3xl">
+            We’re doing market and wine too. Everything from meals kits to lorem ipsum.
+            <br class="md:hidden">
+            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="">→ order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="aspect-ratio-square md:aspect-ratio-3/4"></div>
     </div>
-  </div>
-  <div class="lg:h-90vh lg:w-1/2 bg-gray-900">
-    @include('components.background-image',['image'=> $section['image']])
+    <div class="w-full md:w-1/2 relative">
+      <div class="absolute inset-0">
+        @include('components.background-image',['image'=> $section['image']])
+      </div>
+      <div class="aspect-ratio-3/4"></div>
+    </div>
   </div>
 </section>
