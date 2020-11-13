@@ -6,13 +6,12 @@
       <div class="absolute inset-0 flex flex-col">
         <div class="container max-w-none py-4 md:py-8 flex flex-wrap flex-none">
           <div class="w-1/2">
-            2040 Hillhurst Ave<br>
-            Los Angeles, CA 90027<br>
-            (323) 555-1212
+            Coffee, Breakfast & Lunch<br>
+            9a-230p daily<br>
           </div>
           <div class="w-1/2 text-right">
-            Join the newsletter<br>
-            or View the archive<br>
+            Dinner, 5-8pm Daily<br>
+            Pizza, Thurs-Mon 5-8p
           </div>
         </div>
         <div class="container max-w-none h-full flex flex-col items-center justify-center text-center">
@@ -23,15 +22,15 @@
           </h2>
           @include('components.button')
         </div>
-        <div class="container max-w-none py-4 md:py-8 flex flex-wrap flex-none">
+        <div class="container max-w-none py-4 md:py-8 flex flex-wrap flex-none items-end">
           <div class="w-1/2">
             2040 Hillhurst Ave<br>
             Los Angeles, CA 90027<br>
             (323) 555-1212
           </div>
           <div class="w-1/2 text-right">
-            Join the newsletter<br>
-            or View the archive<br>
+            <button class="underline">Join the Newsletter</button><br>
+            or <button class="underline">View the Archive</button>
           </div>
         </div>
       </div>

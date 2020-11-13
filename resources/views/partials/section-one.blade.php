@@ -10,6 +10,6 @@
       @php echo wp_get_attachment_image( $image, 'large', '', array( 'class' => 'w-full h-full object-cover' ) ) @endphp
       @endforeach
     </div>
-    <div class="aspect-ratio-4/3 lg:aspect-ratio-16/9"></div>
+    <div class="aspect-ratio-4/3 lg:aspect-ratio-21/9"></div>
   </section>
 @endif
