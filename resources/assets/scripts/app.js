@@ -67,6 +67,9 @@ $(document).ready(() => {
         go();
         return dfd.promise();
     };
-})(jQuery);
-$('#list').marquee({ count: 99 });
+  })(jQuery);
+  $('#list').marquee({ 
+    count: 99,
+    leftToRight: true
+  });
 });

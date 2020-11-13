@@ -1,7 +1,7 @@
 @include('partials.header')
 
 <div class="font-brand">
-  <main class="main">
+  <main class="main bg-brand-beige">
     @yield('content')
   </main>
 
