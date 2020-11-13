@@ -5,31 +5,32 @@
       Almost always open
     </a>
 
-    <div class="w-full overflow-hidden relative bg-orange-600" id="containerElem">
-      <ul class="hidden xl:flex items-center space-x-2 list" id="list">
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Market Place</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Coffee &amp; Breakfast</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-        <li class="list__item flex-none">&rarr;</li>
-        <li class="list__item flex-none">Restaurant</li>
-      </ul>
+    <div class="w-full overflow-hidden relative" id="containerElem">
+        <div class="marquee">
+          <div class="hidden md:block" id="list">
+            <span class="list__item">Market Place</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Coffee &amp; Breakfast</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+            <span class="list__item">&rarr;</span>
+            <span class="list__item">Restaurant</span>
+          </div>
+        </div>
     </div>
     
     @include('components.button')
