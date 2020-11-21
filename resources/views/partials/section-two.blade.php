@@ -24,13 +24,15 @@
         </div>
         <div class="container max-w-none py-4 md:py-8 flex flex-wrap flex-none items-end">
           <div class="w-1/2">
-            2040 Hillhurst Ave<br>
-            Los Angeles, CA 90027<br>
-            (323) 555-1212
+            <a href="https://goo.gl/maps/7CvNGzoepYTDkCww5" class="hover:underline">
+              2040 Hillhurst Ave<br>
+              Los Angeles, CA 90027<br>
+              (323) 555-1212
+            </a>
           </div>
           <div class="w-1/2 text-right">
             <button class="underline">Join the Newsletter</button><br>
-            or <button class="underline">View the Archive</button>
+            or <a href="https://alltimelosangeles.com/newsletter" class="underline">View the Archive</a>
           </div>
         </div>
       </div>

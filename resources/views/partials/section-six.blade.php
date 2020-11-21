@@ -5,7 +5,7 @@
     @if (has_nav_menu('primary_navigation'))
       {!! wp_nav_menu([
         'theme_location' => 'primary_navigation', 
-        'menu_class' => 'nav text-sm md:text-base uppercase md:flex justify-between tracking-wide items-center space-y-1 md:space-y-0 underline md:no-underline text-center', 
+        'menu_class' => 'nav text-sm lg:text-base uppercase md:flex justify-between tracking-wide leading-tight items-center space-y-1 md:space-y-0 underline md:no-underline text-center', 
         'echo' => false]) 
       !!}
     @endif

@@ -11,7 +11,7 @@
 @endphp
 
 <section class="bg-gray-100 uppercase relative">   
-  <div class="grid grid-cols-2 md:grid-cols-{{ $count }}">
+  <div class="grid grid-cols-2 lg:grid-cols-{{ $count }}">
     @foreach($images as $image) 
       <div class="relative">
         <div class="absolute inset-0">

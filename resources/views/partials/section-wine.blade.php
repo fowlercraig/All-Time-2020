@@ -1,4 +1,4 @@
-@php $section = get_field('section_6') @endphp
+@php $section = get_field('section_7') @endphp
 
 <section class="bg-white relative text-xs lg:text-base">
   <div class="flex flex-wrap md:items-center">
