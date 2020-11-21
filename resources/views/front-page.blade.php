@@ -8,6 +8,7 @@
 @include('partials.section-dinner')
 @include('partials.section-three')
 @include('partials.section-four')
+@include('partials.section-wine')
 @include('partials.section-five')
 @include('partials.section-six')
 

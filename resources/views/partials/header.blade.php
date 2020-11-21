@@ -10,25 +10,23 @@
           <div class="hidden md:block" id="list">
             <span class="list__item">Market Place</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Coffee &amp; Breakfast</span>
+            <span class="list__item">Coffee</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Breakfast</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Sandwiches</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Pizza</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Natural Wine</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">House Made Bread</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Staples</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Speciality Items</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
-            <span class="list__item">&rarr;</span>
-            <span class="list__item">Restaurant</span>
+            <span class="list__item">Farmers Market</span>
           </div>
         </div>
     </div>

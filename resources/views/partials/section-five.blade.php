@@ -1,11 +1,24 @@
 @php 
   $section = get_field('section_5');
-  $image = $section['image'];
+  $images = $section['image'];
+
+  if(count($images) > 4){
+    $count = '4';
+  } else {
+    $count = count($images);
+  }
+
 @endphp
 
-<section class="bg-gray-100 uppercase relative">  
-  <div class="absolute inset-0">
-    @include('components.background-image')
+<section class="bg-gray-100 uppercase relative">   
+  <div class="grid grid-cols-2 md:grid-cols-{{ $count }}">
+    @foreach($images as $image) 
+      <div class="relative">
+        <div class="absolute inset-0">
+          @include('components.background-image',['image'=> $image])
+        </div>
+        <div class="aspect-ratio-square bg-black"></div>
+      </div>
+    @endforeach
   </div>
-  <div class="aspect-ratio-4/3 lg:aspect-ratio-16/9"></div>
 </section>
