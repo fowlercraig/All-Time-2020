@@ -19,7 +19,7 @@
 
     <div class="w-full relative md:order-first">
       <div class="absolute inset-0">
-        @include('components.background-image',['image'=> $section['image']])
+        @include('components.background-image',['image'=> $section['image'], 'position'=> 'object-bottom'])
       </div>
       <div class="aspect-ratio-square md:aspect-ratio-16/9"></div>
     </div>

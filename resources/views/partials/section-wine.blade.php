@@ -6,7 +6,7 @@
     <div class="w-full md:w-1/2 relative md:absolute z-30">
       <div class="absolute inset-0 flex items-center justify-center md:items-center md:justify-start p-8">
         <div class="w-full space-y-3 text-center md:text-left">
-          <div class="font-eyebrow text-brand mb-4">Wine Club</div>
+          <div class="font-eyebrow text-brand mb-4">wine shop + wine club best in town</div>
           <div class="uppercase text-lg md:text-3xl leading-tight">
             Daily 5pm-8pm
             <br>
