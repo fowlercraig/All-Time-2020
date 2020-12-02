@@ -22,3 +22,5 @@
     @endforeach
   </div>
 </section>
+
+<div class="col-span-4 hidden"></div>
