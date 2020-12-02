@@ -23,4 +23,4 @@
   </div>
 </section>
 
-<div class="col-span-4 hidden"></div>
+<div class="grid-cols-4 hidden"></div>
