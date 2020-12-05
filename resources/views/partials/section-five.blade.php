@@ -23,4 +23,4 @@
   </div>
 </section>
 
-<div class="grid-cols-4 hidden"></div>
+<div class="lg:grid-cols-4 hidden"></div>
