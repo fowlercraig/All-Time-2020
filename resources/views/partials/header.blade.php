@@ -18,7 +18,7 @@
             <span class="list__item">&rarr;</span>
             <span class="list__item">Pizza</span>
             <span class="list__item">&rarr;</span>
-            <span class="list__item">Natural Wine</span>
+            <span class="list__item">Real Wine</span>
             <span class="list__item">&rarr;</span>
             <span class="list__item">House Made Bread</span>
             <span class="list__item">&rarr;</span>
