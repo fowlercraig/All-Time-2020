@@ -1,15 +1,10 @@
-<article @php(post_class())>
+<article @php post_class('prose prose-sm mx-auto') @endphp>
   <header>
-    <h2 class="entry-title">
-      <a href="{{ get_permalink() }}">
-        {!! $title !!}
-      </a>
+    <h2 class="entry-title font-sans text-sm uppercase tracking-widest font-medium">
+      <a href="{{ get_permalink() }}">{!! get_the_title() !!}</a>
     </h2>
-
-    @include('partials/entry-meta')
   </header>
-
-  <div class="entry-summary">
-    @php(the_excerpt())
+  <div class="entry-summary leading-6 mb-10">
+    @php the_content() @endphp
   </div>
 </article>

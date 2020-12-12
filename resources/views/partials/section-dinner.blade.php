@@ -10,7 +10,7 @@
           <div class="uppercase text-lg md:text-3xl leading-tight">
             Daily 5pm-8pm
             <br>
-            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="">→ order now</a>
+            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="{!! $order !!}">→ order now</a>
           </div>
         </div>
       </div>

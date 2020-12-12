@@ -9,7 +9,7 @@
           <div class="uppercase text-lg md:text-3xl leading-tight">
             Daily 5pm-8pm
             <br>
-            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="">Join In →</a>
+            <a class="text-brand hover:underline inline-block mt-2" href="">Join In →</a>
           </div>
         </div>
       </div>

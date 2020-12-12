@@ -9,7 +9,7 @@
           <div class="uppercase text-lg md:text-3xl leading-tight">
             House made bread, specialty items, + staples
             <br class="md:hidden">
-            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="">→ order now</a>
+            <a class="text-brand hover:underline inline-block mt-2 -ml-3" href="{!! $order !!}">→ order now</a>
           </div>
         </div>
       </div>

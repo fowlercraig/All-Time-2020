@@ -7,6 +7,21 @@ module.exports = {
   },
   purge: [],
   theme: {
+    typography: (theme) => ({
+      default: {
+        css: {
+          a: {
+            color: theme('colors.brand.default'),
+            textDecoration: 'underline',
+          },
+        },
+      },
+      'sm': {
+        css: {
+          lineHeight: '145%',
+        },
+      },
+    }),
     aspectRatio: {
       'none': 0,
       'square': [1, 1],

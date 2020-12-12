@@ -31,8 +31,8 @@
             </a>
           </div>
           <div class="w-1/2 text-right">
-            <button class="underline">Join the Newsletter</button><br>
-            or <a href="https://alltimelosangeles.com/newsletter" class="underline">View the Archive</a>
+            <button @click="news = true" class="underline">Join the Newsletter</button><br>
+            or <a href="/newsletter" class="underline">View the Archive</a>
           </div>
         </div>
       </div>
