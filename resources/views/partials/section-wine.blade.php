@@ -9,7 +9,7 @@
           <div class="uppercase text-lg md:text-3xl leading-tight">
             Daily 5pm-8pm
             <br>
-            <a class="text-brand hover:underline inline-block mt-2" href="">Join In →</a>
+            <a class="text-brand hover:underline inline-block mt-2" href="mailto:leigh@alltimelosangeles.com?subject=All Time Wine Club&body={{ $section['email_copy'] }}">Join In →</a>
           </div>
         </div>
       </div>
