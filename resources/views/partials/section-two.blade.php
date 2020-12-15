@@ -31,8 +31,10 @@
             </a>
           </div>
           <div class="w-1/2 text-right">
-            <button @click="news = true" class="underline">Join the Newsletter</button><br>
-            or <a href="/newsletter" class="underline">View the Archive</a>
+            <div class="text-center inline-block">
+              <button @click="news = true" class="rounded-full text-sm uppercase border border-black px-4 py-2 hover:bg-black hover:text-white">Join the Newsletter</button><br>
+              <span class="text-xs">or <a href="/newsletter" class="underline">View the Archive</a></span>
+            </div>
           </div>
         </div>
       </div>
