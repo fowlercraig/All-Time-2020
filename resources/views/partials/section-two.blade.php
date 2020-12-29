@@ -27,7 +27,7 @@
             <a href="https://goo.gl/maps/7CvNGzoepYTDkCww5" class="hover:underline">
               2040 Hillhurst Ave<br>
               Los Angeles, CA 90027<br>
-              (323) 555-1212
+              (323) 660-3868
             </a>
           </div>
           <div class="w-1/2 text-right">
