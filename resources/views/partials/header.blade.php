@@ -1,3 +1,7 @@
+<div class="bg-brand text-white font-brand text-center p-2 text-xs uppercase">
+    <p>we are currently open Thursday-Monday 930-230 and 5-8p for breakfast, lunch, coffee, wine, market, and dinner. </p>
+    <p>We are closed Tuesdays and Wednesdays for the time being, to give our team and ourselves rest.</p>
+</div>
 <header class="banner flex items-center sticky top-0 uppercase bg-white font-brand text-gray-700 text-sm md:text-lg z-50 shadow md:shadow-none">
   <div class="w-full flex items-center justify-between ">
 
