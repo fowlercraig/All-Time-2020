@@ -1,0 +1,16 @@
+.content h3 {
+  @apply uppercase text-lg lg:text-3xl sm:leading-none;
+}
+.content h4 {
+  @apply leading-none text-brand; 
+}
+.content h5 {
+  @apply font-eyebrow text-brand;
+}
+
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a {
+  @apply text-brand border-b border-brand;
+}
